@@ -170,6 +170,7 @@ target_link_libraries(${us_declarativeservices_test_exe_name}
   ${GMOCK_BOTH_LIBRARIES}
   ${${PROJECT_NAME}_LINK_LIBRARIES}
   DeclarativeServicesObjs
+  DeclarativeServices
   usTestInterfaces
   usServiceComponent
   usLogService
